@@ -1,0 +1,17 @@
+{
+  "name": "govuk-frontend-marko",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "govuk-frontend": "^1.0.0"
+  },
+  "peerDependencies": {
+    "marko": "^4.12.0"
+  }
+}

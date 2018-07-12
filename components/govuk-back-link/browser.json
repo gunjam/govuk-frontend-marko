@@ -1,0 +1,5 @@
+{
+  "dependencies": [
+    "govuk-frontend/components/back-link/_back-link.scss"
+  ]
+}
