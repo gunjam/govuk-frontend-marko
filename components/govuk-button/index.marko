@@ -1,0 +1,35 @@
+static function buttonAttributes(input) {
+  const attributes = {
+    ...input['*'],
+    name: input.name,
+    type: input.type || 'submit'
+  };
+
+  if (input.disabled === true) {
+    attributes.disabled = 'disabled';
+    attributes['aria-disabled'] = 'true';
+  }
+
+  return attributes;
+}
+
+$ const element = input.element || (input.href ? 'a' : 'button');
+$ const classes = ['govuk-button', input.classes, input.disabled === true && 'govuk-button--disabled'];
+
+<a if(element === 'a') href=(input.href || '#') class=classes role="button" ...input['*']>
+  <if(input.renderBody)>
+    <include(input.renderBody)/>
+  </if>
+  <else>
+    ${input.text}
+  </else>
+</a>
+<button else-if(element === 'button') class=classes value=input.value ...buttonAttributes(input)>
+  <if(input.renderBody)>
+    <include(input.renderBody)/>
+  </if>
+  <else>
+    ${input.text}
+  </else>
+</button>
+<input else-if(element === 'input') class=classes value=input.text ...buttonAttributes(input)>

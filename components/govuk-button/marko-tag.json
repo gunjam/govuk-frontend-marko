@@ -1,0 +1,11 @@
+{
+  "@classes": "string",
+  "@element": "string",
+  "@href": "string",
+  "@text": "string",
+  "@name": "string",
+  "@value": "string",
+  "@type": "string",
+  "@disabled": "boolean",
+  "@*": "object"
+}

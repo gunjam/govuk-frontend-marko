@@ -1,0 +1,48 @@
+{
+  "default": {
+    "text": "Save and continue"
+  },
+  "disabled": {
+    "text": "Disabled button",
+    "disabled": true
+  },
+  "link": {
+    "text": "Link button",
+    "href": "/"
+  },
+  "link disabled": {
+    "text": "Disabled link button",
+    "href": "/",
+    "disabled": true
+  },
+  "start link": {
+    "text": "Start now link button",
+    "href": "/",
+    "classes": "govuk-button--start"
+  },
+  "input": {
+    "element": "input",
+    "name": "start-now",
+    "text": "Start now"
+  },
+  "input disabled": {
+    "element": "input",
+    "text": "Explicit input button disabled",
+    "disabled": true
+  },
+  "with active state": {
+    "name": "active",
+    "text": "Active",
+    "classes": ":active"
+  },
+  "with hover state": {
+    "name": "hover",
+    "text": "Hovered",
+    "classes": ":hover"
+  },
+  "with focus state": {
+    "name": "focus",
+    "text": "Focussed",
+    "classes": ":focus"
+  }
+}
