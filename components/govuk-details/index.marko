@@ -1,0 +1,10 @@
+<details id=input.id class=["govuk-details", input.classes] open=(input.open === true) ...input['*']>
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      ${input.summary}
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <include(input.renderBody)/>
+  </div>
+</details>

@@ -1,0 +1,2 @@
+/* global GOVUKFrontend */
+GOVUKFrontend.initAll();

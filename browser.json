@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "govuk-frontend/all.js",
+    "./init.js"
+  ]
+}

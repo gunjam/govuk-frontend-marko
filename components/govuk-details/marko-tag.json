@@ -1,0 +1,7 @@
+{
+  "@id": "string",
+  "@classes": "string",
+  "@open": "boolean",
+  "@summary": "string",
+  "@*": "object"
+}
