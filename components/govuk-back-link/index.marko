@@ -1,3 +1,8 @@
-<a href=(input.href || '#') class=['govuk-back-link', input.classes] ...input.attributes>
-  ${input.text || 'Back'}
+<a href=input.href class=['govuk-back-link', input.classes] ...input['*']>
+  <if(input.renderBody)>
+    <include(input.renderBody)/>
+  </if>
+  <else>
+    Back
+  </else>
 </a>

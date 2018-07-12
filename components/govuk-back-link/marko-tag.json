@@ -1,5 +1,8 @@
 {
-  "@href": "string",
+  "@href": {
+    "type": "string",
+    "required": true
+  },
   "@classes": "string",
-  "@attributes": "object"
+  "@*": "object"
 }
