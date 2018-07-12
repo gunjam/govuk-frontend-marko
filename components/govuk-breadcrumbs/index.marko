@@ -1,0 +1,14 @@
+<div class=['govuk-breadcrumbs', input.classes] ...input['*']>
+  <ol.govuk-breadcrumbs__list>
+    <for(item in input.items)>
+      <li.govuk-breadcrumbs__list-item if(item.href) aria-current="page">
+        <a.govuk-breadcrumbs__link href=item.href>
+          <include(item.renderBody)/>
+        </a>
+      </li>
+      <li.govuk-breadcrumbs__list-item else>
+        <include(item.renderBody)/>
+      </li>
+    </for>
+  </ol>
+</div>

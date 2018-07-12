@@ -1,0 +1,10 @@
+{
+  "@classes": "string",
+  "@items <item>[]": {
+    "@href": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "*": "object"
+}
